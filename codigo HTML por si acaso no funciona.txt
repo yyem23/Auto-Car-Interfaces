@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Car</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Este es el enlace para conseguir los iconos de las redes sociales -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <!-- Este es el header o cabecera -->
+    <header class="header">
+        <div class="logo">
+           <img src="img/logo.avif" alt="Logo auto car">
+        </div>
+        <nav>
+           <ul class="nav-links">
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Top 10">Top 10</a></li>
+                <li><a href="#Diseños">Diseños</a></li>
+                <li><a href="#Video">Video</a></li>
+           </ul>            
+        </nav>
+        <a class="btn" href="#"><button>Contacto</button></a>
+
+      <a onclick="abrirMenu()" class="menu" href="#"><button>≡</button></a>
+
+        <div id="mobile-menu" class="overlay">
+            <a onclick="cerrarMenu()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="#Inicio">Inicio</a>
+                <a href="#Top 10">Top 10</a>
+                <a href="#Diseños">Diseños</a>
+                <a href="#Video">Video</a>
+              <a href="#">Contacto</a>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Esta es la seccion de introducción -->
+
+    <section class="introduccion" id="Inicio">
+        <div class="intro-contenido">
+            <div class="intro-texto">
+                <h2>¿Quieres cambiar tu coche?</h2>
+                <p>Aquí te dejamos un top 10 de los mejores coches calidad precio que puedes valorar para cambiar tu coche.</p>
+                <button class="boton">Leer Más</button>
+            </div>
+            <div class="intro-imagen">
+                <img src="img/coches.jpg" alt="Imagen de Coches">
+            </div>
+        </div>
+    </section>
+
+    <!-- Este es la seccion de  top 10 -->
+
+    <div class="titulo-top10">
+        <h2>Top 10</h2>
+    </div>
+
+    <section class="lista-coches" id="Top 10">
+        <article class="coche">
+            <img src="img/kiaPicanto.jpg" alt="coche 1">
+            <h2>1. Urbano Kia Piacnto</h2>
+            <p>
+            El Kia Picanto Urbano es un coche compacto y moderno ideal para la ciudad. Con un diseño atractivo, un interior espacioso y tecnología de última generación, 
+            el Picanto ofrece una gran relación calidad-precio. Su precio oscila entre los 10.900€ y los 17.000€, dependiendo del acabado, la motorización y el equipamiento.</p>
+        </article>
+
+        <article class="coche">
+            <img src="img/seatIbiza.avif" alt="coche 1">
+            <h2>2. Seat Ibiza </h2>
+            <p>Seat Ibiza: compacto y deportivo con tecnología de punta. Interior espacioso, pantalla táctil y asistentes a la conducción. 
+            Motores gasolina desde 80 CV, cambio manual o automático. Precio entre 15.500€ y 25.000€.</p>
+        </article>
+
+        <article class="coche">
+            <img src="img/peugeot308.jpg" alt="coche 1">
+            <h2>3. Compacto Peugot</h2>
+            <p>El Peugeot 308 es un compacto ideal para aquellos que buscan un coche elegante, tecnológico, seguro y con una amplia gama de motorizaciones.
+                El precio del Peugeot 308 oscila entre los 24.300€ y los 40.000€.
+            </p>
+        </article>
+
+        <article class="coche">
+            <img src="img/skodaOctavia.jpg" alt="coche 1">
+            <h2>4. Skoda Octavia Combi </h2>
+            <p>El Skoda Octavia Combi combina estilo, funcionalidad y amplitud. Su diseño exterior es elegante y aerodinámico,
+             con faros LED de serie y llantas de aleación disponibles hasta 19". El precio del Skoda Octavia Combi oscila entre los 26.300€ y los 45.000€ aproximadamente.</p>
+        </article>
+
+        <article class="coche">
+            <img src="img/bmwSeriee3.webp" alt="coche 1">
+            <h2>5. BMW Serie 3</h2>
+            <p>El BMW Serie 3 es un sedán premium que ofrece un placer de conducir excepcional, un diseño elegante y deportivo, tecnología de última generación y una amplia gama de motorizaciones eficientes.
+                 El precio del BMW Serie 3 oscila entre los 44.200€ y los 92.000€.
+                Si buscas un coche que te haga sentir especial cada vez que te pongas al volante, el BMW Serie 3 es una excelente opción.</p>
+        </article>
+
+        <article class="coche">
+            <img src="img/skodaSuperb.jpg" alt="coche 1">
+            <h2>6.  Skoda Superb</h2>
+            <p>El Skoda Superb destaca por su diseño elegante y moderno, con un espacio interior líder en su categoría y un maletero de 625 litros. 
+                Ofrece tecnología de última generación, como un cuadro de instrumentos digital y una pantalla táctil con Apple CarPlay y Android Auto. 
+                El precio del Skoda Superb oscila entre los 32.500€ y los 50.000€ aproximadamente</p>
+        </article>
+
+        <article class="coche">
+            <img src="img/fordPuma.avif" alt="coche 1">
+            <h2>7. Ford Puma</h2>
+            <p>El  Ford Puma es un crossover urbano ideal para aquellos que buscan un coche compacto, divertido de conducir, práctico, tecnológico y con buen rendimiento. 
+                Cuenta con la versión Puma ST, con 200 CV de potencia y un carácter más deportivo, ofrece un techo solar panorámico opcional para una mayor sensación de amplitud,
+                 y dispone de un ingenioso compartimento bajo el maletero llamado "MegaBox" para guardar objetos húmedos o sucios. El precio del Ford Puma oscila entre los 25.640€ y los 33.020€.</p>
+        </article>
+
+        <article class="coche">
+            <img src="img/kiaSportage.webp" alt="coche 1">
+            <h2>8. Kia Sportage</h2>
+            <p>El Kia Sportage es un SUV compacto que combina un diseño moderno y atrevido con un interior espacioso y tecnología de última generación. 
+                Está disponible en una variedad de motorizaciones, incluyendo versiones híbridas y enchufables, ideales para aquellos que buscan eficiencia y cuidado del medio ambiente. El precio del Kia Sportage oscila entre los 29.400€ y los 54.000€ aproximadamente.</p>
+        </article>
+
+        <article class="coche">
+            <img src="img/hyundaiSantaFe.webp" alt="coche 1">
+            <h2>9.Hyundai Santa Fe </h2>
+            <p>El Hyundai Santa Fe es un SUV mediano que ha sido completamente rediseñado para el año 2024, ofreciendo más espacio, comodidad, funcionalidad y tecnología. Con su nuevo diseño elegante y robusto, 
+                es una opción ideal para familias activas que buscan un vehículo versátil para sus escapadas de fin de semana o viajes largos. El precio del Hyundai Santa Fe oscila entre los 40.500€ y los 57.000€ aproximadamente.</p>
+        </article>
+
+        <article class="coche">
+            <img src="img/audiQ5.avif" alt="coche 1">
+            <h2>10. Audi Q5</h2>
+            <p>El Audi Q5 es un SUV de lujo mediano que ofrece una combinación de rendimiento, confort y estilo. 
+                Está disponible en una variedad de acabados y opciones de motor, para que puedas encontrar uno que se adapte a tus necesidades y presupuesto.
+                El precio inicial del Audi Q5 es de alrededor de 45,000 euros , pero puede aumentar rápidamente a más de 60,000 euros con opciones.  </p>
+        </article>
+    </section>
+
+    <!-- Este es la seccion de los mejores diseños -->
+
+    <div class="titulo">
+        <h2>Los mejores diseños del Top 10</h2>
+      </div>
+
+    <div class="contenedor-tarjeta" >
+        <div class="tarjeta"  id="Diseños">
+          <img src="img/audiQ5.avif" alt="Card Image">
+          <div class="contenido-tarjeta">
+            <h3>Audi Q5</h3>
+            <p>El Audi Q5 combina elegancia y deportividad. Sus líneas fluidas y pasos de rueda anchos acentúan su carácter SUV, mientras que
+                 la parrilla Singleframe y las luces traseras OLED le dan un toque moderno y distintivo.</p>
+          </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="img/hyundaiSantaFe.webp" alt="Card Image">
+            <div class="contenido-tarjeta">
+              <h3>Hyundai Santa Fe</h3>
+              <p>
+                El Hyundai Santa Fe destaca por su diseño robusto y sofisticado. Sus formas cuadradas y ángulos rectos le dan una presencia imponente, 
+                mientras que la parrilla prominente y las luces LED en forma de H le aportan un toque moderno y tecnológico.</p>
+            </div>
+          </div>
+
+          <div class="tarjeta">
+            <img src="img/seatIbiza.avif" alt="Card Image">
+            <div class="contenido-tarjeta">
+              <h3>Seat Ibiza</h3>
+              <p>
+                El Seat Ibiza presume un diseño juvenil y dinámico. Sus líneas afiladas y faros LED le dan un aspecto deportivo,
+                 mientras que la parrilla hexagonal y el techo corredizo opcional le aportan un toque de elegancia.</p>
+            </div>
+          </div>
+      </div>
+
+      <!-- Este es la seccion  del video -->
+      <div class="titulo-video">
+        <h2>Tips que te ayudarán  a valorar cómo  comprarte un coche</h2>
+      </div>
+
+    <div class="columna" id="Video">
+        <div class="video-contenedor">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KLYwfZ7P6_E?si=Rh2bRVthh83K-EKl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- el enlace al fichero javascript -->
+   <script type="text/javascript" src="script.js"></script>
+
+
+   <!-- Este es el footer -->
+   <footer class="footer">
+    <div class="contenedor">
+        <div class="fila">
+            <div class="footer-col">
+                <h4>auto car</h4>
+                <ul>
+                    <li><a href="#">sobre nosotros</a></li>
+                    <li><a href="#">nuestros servicios</a></li>
+                    <li><a href="#">política de prvacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Ayuda</h4>
+                <ul>
+                    <li><a href="#">TOP 10</a></li>
+                    <li><a href="#">Mejores coches</a></li>
+                    <li><a href="#">Coches mas baratos</a></li>
+                    <li><a href="#">Coches más caros</a></li>
+                   
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Información</h4>
+                <ul>
+                    <li><a href="#">ver</a></li>
+                    <li><a href="#">coches</a></li>
+                    <li><a href="#">marcas</a></li>
+                    <li><a href="#">concesionarios</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Siguenos</h4>
+                <div class="links-redes">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
