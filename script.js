@@ -1,0 +1,13 @@
+//funcion para abrir el menu desplegable
+function abrirMenu(){
+    document.getElementById("mobile-menu").style.width = "100%";
+  }
+  
+  //funcion para cerrar el menu desplegable
+  function cerrarMenu(){
+    document.getElementById("mobile-menu").style.width = "0%";
+  }
+
+
+
+
